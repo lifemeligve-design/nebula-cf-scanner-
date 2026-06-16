@@ -1,0 +1,35 @@
+# ===== سورس‌کد اصلی (روی گیت‌هاب آپلود نشود) =====
+cf_clean_scanner.py
+*.py
+!setup_check.py
+
+# ===== فایل‌های ساخت و موقت =====
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+venv/
+.venv/
+env/
+
+# ===== فایل‌های داده‌ی کاربر =====
+cf_ip_history.json
+cf_best_ip.txt
+*.csv
+*.log
+
+# ===== سیستم‌عامل =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== ویرایشگرها =====
+.vscode/
+.idea/
+*.swp
+*~
